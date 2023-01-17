@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+}
+
+body{
+    height: 100vh;
+    background-image: url(./clouds-1236768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    color: aliceblue;
+    font-size: 75px;
+    position: relative;
+}
+
+main{
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+}
+
+input{
+    position: relative;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 25px;
+}
+
+button{
+    position: relative;
+    display: fixed;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button i {
+    position: relative;
+    font-size: 40px;
+}
+
+.content {
+    margin-top: 10px;
+    justify-content: space-between;
+    word-break: break-word;
+}
+
+
+img{
+    min-width: 120px;
+    background: transparent;
+    background-image: radial-gradient(#b5b5b5, #ffff);
+}
+
+#place{
+    font-size: 40px;
+    color: rgb(5, 51, 78) ;
+}
+
+#degrees{
+    font-size: 25px;
+    color: white
+}
+
+
